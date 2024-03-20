@@ -1,0 +1,6 @@
+version: "3"
+
+tasks:
+  migrate:
+    cmds:
+      - go run ./cmd/migrator --storage-path=./storage/sso.db --migrations-path=./migrations
